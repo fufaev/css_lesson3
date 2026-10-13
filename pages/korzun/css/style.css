@@ -122,3 +122,38 @@ ul.spisok li a:hover {
     border-right: 1px dotted #8c3426;
     line-height: 15px;
 }
+#center_content {
+    clear: both;
+    width: 950px;
+    padding-top: 25px;
+    background: url(../../../images/center_bg.gif) no-repeat top center;
+}
+
+.left_content {
+    float: left;
+    width: 400px;
+    padding: 20px;
+}
+
+.right_content {
+    float: left;
+    width: 200px;
+    padding: 20px 10px 10px 10px;
+}
+
+.fotos {
+    clear: both;
+    padding: 15px;
+}
+
+.box {
+    float: left;
+    width: 199px;
+    height: 164px;
+    padding: 20px 12px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
