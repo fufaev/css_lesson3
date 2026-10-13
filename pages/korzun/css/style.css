@@ -72,3 +72,53 @@ ul.spisok li a:hover {
     color: #E459EF;
     text-decoration: underline;
 }
+#footer {
+    width: 950px;
+    height: 51px;
+    padding-top: 30px;
+    background: url(../../../images/footer.gif) repeat-x;
+    color: #E459EF;
+    text-align: center;
+}
+
+#main_block {
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+}
+
+#me {
+    position: absolute;
+    top: 120px;
+    right: 40px;
+    z-index: 1000;
+}
+
+#header {
+    width: 950px;
+    height: 175px;
+    background: url(../../../images/top_bg.jpg) no-repeat;
+}
+
+#logo {
+    float: left;
+    width: 245px;
+    height: 61px;
+    padding: 35px 0 0 20px;
+}
+
+#logo h1 {
+    margin: 4px 0 0 75px;
+    font-size: 12px;
+}
+
+#latest {
+    float: left;
+    width: 400px;
+    margin: 20px 0 0 30px;
+    padding: 0 15px 0 10px;
+    border-left: 1px dotted #8c3426;
+    border-right: 1px dotted #8c3426;
+    line-height: 15px;
+}
