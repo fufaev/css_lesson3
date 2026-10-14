@@ -1,0 +1,159 @@
+body {
+    background: url(../../../images/bg.jpg) no-repeat center top #b8b6bb;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+
+p {
+    margin: 0;
+    padding: 5px 0 0 0;
+    line-height: 15px;
+    text-align: justify;
+}
+
+.title {
+    padding: 2px 0;
+    color: #409efd;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.podpis {
+    font-weight: bold;
+}
+
+.ev {
+    padding: 3px;
+    border: 1px solid #409efd;
+}
+
+#lf {
+    float: right;
+    margin-left: 10px;
+    padding: 3px;
+    border: 1px solid #E459EF;
+}
+.menu {
+    clear: both;
+    height: 23px;
+    padding: 40px 0 0 30px;
+}
+
+.menu a {
+    padding-right: 18px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #E459EF;
+}
+
+ul.spisok {
+    list-style-image: url(../../../images/list_arrow.gif);
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+}
+
+ul.spisok li a {
+    color: #000;
+    text-decoration: none;
+}
+
+ul.spisok li a:hover {
+    color: #E459EF;
+    text-decoration: underline;
+}
+#footer {
+    width: 950px;
+    height: 51px;
+    padding-top: 30px;
+    background: url(../../../images/footer.gif) repeat-x;
+    color: #E459EF;
+    text-align: center;
+}
+
+#main_block {
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+}
+
+#me {
+    position: absolute;
+    top: 120px;
+    right: 40px;
+    z-index: 1000;
+}
+
+#header {
+    width: 950px;
+    height: 175px;
+    background: url(../../../images/top_bg.jpg) no-repeat;
+}
+
+#logo {
+    float: left;
+    width: 245px;
+    height: 61px;
+    padding: 35px 0 0 20px;
+}
+
+#logo h1 {
+    margin: 4px 0 0 75px;
+    font-size: 12px;
+}
+
+#latest {
+    float: left;
+    width: 400px;
+    margin: 20px 0 0 30px;
+    padding: 0 15px 0 10px;
+    border-left: 1px dotted #8c3426;
+    border-right: 1px dotted #8c3426;
+    line-height: 15px;
+}
+#center_content {
+    clear: both;
+    width: 950px;
+    padding-top: 25px;
+    background: url(../../../images/center_bg.gif) no-repeat top center;
+}
+
+.left_content {
+    float: left;
+    width: 400px;
+    padding: 20px;
+}
+
+.right_content {
+    float: left;
+    width: 200px;
+    padding: 20px 10px 10px 10px;
+}
+
+.fotos {
+    clear: both;
+    padding: 15px;
+}
+
+.box {
+    float: left;
+    width: 199px;
+    height: 164px;
+    padding: 20px 12px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
